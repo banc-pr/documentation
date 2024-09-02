@@ -4,14 +4,14 @@ NOTE: The following instructions are terse, and Linux-based only. For detailed s
 
 Install CMake (at least version 3.13), and GCC cross compiler
 
-[source,console]
+[console]
 ----
 $ sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 ----
 
 Set up your project to point to use the Raspberry Pi Pico SDK by cloning the SDK locally:
 
-[source,console]
+[console]
 ----
 $ git clone https://github.com/raspberrypi/pico-sdk.git
 ----
@@ -71,7 +71,7 @@ NOTE: This example uses the default UART for stdout; if you want to use the defa
 
 Setup a CMake build directory. For example, if not using an IDE:
 
-[source,console]
+[console]
 ----
 $ mkdir build
 $ cd build
